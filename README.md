@@ -4,7 +4,7 @@
 
 🚀 Funcionalidades
 
-*Sorteio de amigos.
+*Sorteio de amigos.🍀
 *Função para garantir que a pessoa não retire seu próprio nome como amigo secreto.
 *Função otimizada de embaralhamento da lista de pessoas.
 
@@ -28,7 +28,6 @@ listaDeAmigos.sort(() => Math.random() - 0.5);
         listaAtualizada.appendChild(itemLista);
     }
 }
-🍀Sortear     
 
 Autor
 @Kelvin-RBS# 
