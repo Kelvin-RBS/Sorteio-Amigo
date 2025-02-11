@@ -17,6 +17,10 @@ function adicionarAmigo() {
 function atualizarLista() {
     let listaAtualizada = document.getElementById("listaAmigos");
     listaAtualizada.innerHTML = "";
+    
+    // Embaralhar a lista de amigos(se não vai ser sempre primeiro nome)
+    listaDeAmigos.sort(() => Math.random() - 0.5);
+
     for (let i = 0; i < listaDeAmigos.length; i++) {
         let itemLista = document.createElement("li");
         itemLista.innerHTML = listaDeAmigos[i];
