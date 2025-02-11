@@ -22,15 +22,14 @@ Javascript, HTML, CSS...
             </div>
 
 
-🌪️ Embaralha amigos
-listaDeAmigos.sort(() => Math.random() - 0.5);
+🌪️ Embaralha amigos.\
 
-    for (let i = 0; i < listaDeAmigos.length; i++) {
+    listaDeAmigos.sort(() => Math.random() - 0.5);
+      for (let i = 0; i < listaDeAmigos.length; i++) {
         let itemLista = document.createElement("li");
         itemLista.innerHTML = listaDeAmigos[i];
         listaAtualizada.appendChild(itemLista);
     }
-}
 
 Autor
 @Kelvin-RBS# 
