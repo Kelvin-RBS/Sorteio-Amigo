@@ -23,6 +23,24 @@ body {
     align-items: center;
 }
 
+.rodape{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+ 
+.Spiderzin {
+    max-height: 50px; 
+    width: auto;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
