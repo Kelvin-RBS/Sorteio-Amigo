@@ -37,9 +37,9 @@ body {
 }
 .about-page-link {
     display: inline-block; 
-    font-weight:bold;
+    font-weight: bold;
     text-decoration: none;
-    color: var(--color-button)
+    color: var(--color-button);
 }
 .about-page-contact {
     display: flex;
@@ -47,7 +47,7 @@ body {
     align-items: center;
     gap: 32px;
 }
-.about-page-contact-link{
+.about-page-contact-link {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -62,7 +62,7 @@ body {
     color: var(--color-primary);
 }
 .about-page-contact-link:hover {
-    background-color: var(--color-tertiary) ;
+    background-color: var(--color-tertiary);
     transform: scale(0.90);
 }
 
@@ -78,7 +78,6 @@ body {
     justify-content: flex-start;
     align-items: center; /* Garante alinhamento vertical */
     gap: 15px; /* Define espaçamento uniforme */
-    
 }
 .cabecalho__menu__link__about {
     display: inline-block; 
@@ -115,7 +114,6 @@ body {
 
 .rodape {
     position: fixed; 
-    background-color: var(--color-secondary);
     margin: 0;
     bottom: 0;
     width: 100%; 
@@ -236,7 +234,7 @@ button {
 }
 .img_tornado {
     width: 20px; 
-    vertical-align:auto
+    vertical-align:auto;
 }
 
 .button-add {
@@ -263,7 +261,6 @@ button {
 .button-clear:hover {
     background-color: var(--color-button-hover);
 }
-
 
 /* Listas */
 ul {
