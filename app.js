@@ -60,6 +60,11 @@ function sortearAmigo() {
         }
     }, 1000);
 }
+function limparLista() {
+        listaDeAmigos = [];
+        document.getElementById("listaAmigos").innerHTML = "";
+        document.getElementById("resultado").innerHTML = "";
+    }
 
 function reiniciarSorteio() {
     listaDeAmigos = [];
