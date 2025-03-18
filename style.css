@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #212121; /* Preto */
+    --color-secondary: #455A64; /* Azul escuro */
+    --color-tertiary: #ECEFF1; /* Cinza muito claro */
+    --color-button: #00BCD4; /* Ciano */
+    --color-button-hover: #FF5252; /* Vermelho vibrante */
+    --color-text: #444444; /* Cinza neutro */
+    --color-white: #FFFFFF; /* Branco puro */
 }
 
 /* Estilos gerais */
@@ -55,6 +55,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+}
+.img_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    object-fit: cover;
 }
 
 /* Seção de entrada */
