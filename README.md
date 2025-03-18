@@ -1,5 +1,3 @@
-Aqui está uma versão revisada do seu README com um visual polido e organizado. Espero que goste!
-
 ---
 
 # Sorteio de Amigo Secreto *Alura*
