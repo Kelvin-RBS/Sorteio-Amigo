@@ -33,7 +33,7 @@ body {
 }
 .about-page-texto {
     margin-bottom: 20px;
-    font-size: 20px;
+    
 }
 .about-page-link {
     display: inline-block; 
@@ -248,6 +248,22 @@ button {
 .button-add:hover {
     background-color: #a1a1a1;
 }
+.button-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button-clear:hover {
+    background-color: var(--color-button-hover);
+}
+
 
 /* Listas */
 ul {
