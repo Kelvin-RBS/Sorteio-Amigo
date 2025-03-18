@@ -33,7 +33,7 @@ body {
 }
 .about-page-texto {
     margin-bottom: 20px;
-    
+    font-size: 20px;
 }
 .about-page-link {
     display: inline-block; 
