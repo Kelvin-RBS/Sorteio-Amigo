@@ -43,6 +43,12 @@ function sortearAmigo() {
     }
 
     document.getElementById("resultado").innerHTML = `🎉O nome sorteado é: ${nomeSorteado}🎉`;
+     confetti({
+        particleCount: 150,
+        spread: 300,
+        origin: { y: 0.6 }
+    });
+    
 
     // Desativa o botão de sortear amigo após o sorteio(ALTEREI PARA REINICIAR)
     //document.getElementById("botaoSortear").disabled = true;
