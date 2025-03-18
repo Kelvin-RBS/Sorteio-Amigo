@@ -139,6 +139,10 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+.img_tornado {
+    width: 30px; 
+    vertical-align:auto
+}
 
 .button-add {
     background-color: var(--color-tertiary);
