@@ -40,6 +40,26 @@ body {
     text-decoration: none;
     color: var(--color-button)
 }
+.about-page-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.about-page-contact-link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--color-button);
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--color-primary);
+}
 
 .cabecalho {
     padding: 2% 0% 0% 1%;
