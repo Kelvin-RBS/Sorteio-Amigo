@@ -60,6 +60,10 @@ body {
     text-decoration: none;
     color: var(--color-primary);
 }
+.about-page-contact-link:hover {
+    background-color: var(--color-tertiary) ;
+    transform: scale(0.90);
+}
 
 .cabecalho {
     padding: 2% 0% 0% 1%;
@@ -73,15 +77,39 @@ body {
     justify-content: flex-start;
     align-items: center; /* Garante alinhamento vertical */
     gap: 15px; /* Define espaçamento uniforme */
+    
 }
-
-.cabecalho__menu__link {
-    display: inline-block; /* Evita comportamento inesperado */
+.cabecalho__menu__link__about {
+    display: inline-block; 
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-tertiary);
-    margin: 0; /* Remove margens inesperadas */
+    color: white; 
+    background-color: var(--color-primary);
+    padding: 10px 20px; 
+    border-radius: 10px;
+    cursor: pointer; /* Deixa claro que é clicável */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.cabecalho__menu__link__about:hover {
+    background-color: darkblue; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de "crescimento" sutil */
+}
+.cabecalho__menu__link {
+    display: inline-block; 
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white; 
+    background-color: var(--color-secondary);
+    padding: 10px 20px; 
+    border-radius: 10px;
+    cursor: pointer; /* Deixa claro que é clicável */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.cabecalho__menu__link:hover {
+    background-color: darkblue;
+    transform: scale(1.05); 
 }
 
 .rodape {
