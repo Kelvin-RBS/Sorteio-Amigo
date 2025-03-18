@@ -22,12 +22,107 @@ body {
     justify-content: center;
     align-items: center;
 }
+.about-page {
+    background-color: var(--color-secondary);
+    text-align: left;
+}
+.about-page-conteudo {
+    text-align: left; 
+    width: 70%; 
+    margin: 0 auto; 
+}
+.about-page-texto {
+    margin-bottom: 20px;
+    
+}
+.about-page-link {
+    display: inline-block; 
+    font-weight:bold;
+    text-decoration: none;
+    color: var(--color-button)
+}
+.about-page-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.about-page-contact-link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--color-button);
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+.about-page-contact-link:hover {
+    background-color: var(--color-tertiary) ;
+    transform: scale(0.90);
+}
 
-.rodape{
+.cabecalho {
+    padding: 2% 0% 0% 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /* Garante alinhamento vertical */
+    gap: 15px; /* Define espaçamento uniforme */
+    
+}
+.cabecalho__menu__link__about {
+    display: inline-block; 
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white; 
+    background-color: var(--color-primary);
+    padding: 10px 20px; 
+    border-radius: 10px;
+    cursor: pointer; /* Deixa claro que é clicável */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.cabecalho__menu__link__about:hover {
+    background-color: darkblue; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de "crescimento" sutil */
+}
+.cabecalho__menu__link {
+    display: inline-block; 
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white; 
+    background-color: var(--color-secondary);
+    padding: 10px 20px; 
+    border-radius: 10px;
+    cursor: pointer; /* Deixa claro que é clicável */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.cabecalho__menu__link:hover {
+    background-color: darkblue;
+    transform: scale(1.05); 
+}
+
+.rodape {
+    position: fixed; 
+    background-color: var(--color-secondary);
+    margin: 0;
+    bottom: 0;
+    width: 100%; 
     display: flex;
     align-items: center;
     gap: 10px;
-    color: var(--color-text);
+    color: var(--color-primary);
     background-color: var(--color-secondary);
     justify-content: center;
     padding: 24px;
@@ -35,9 +130,9 @@ body {
     font-size: 1.5rem;
     font-weight: 200;
 }
- 
+
 .Spiderzin {
-    max-height: 50px; 
+    max-height: 30px; 
     width: auto;
 }
 
